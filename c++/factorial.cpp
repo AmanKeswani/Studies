@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
-int main(){
+int main()
+{
     int num;
     int fact;
-    cout<<("enter a number whose factorial is to be found");
-    cin>>num;
-    for (int i=1;i<=num;i++)
+    cout << ("Enter a number whose factorial is to be found : ");
+    cin >> num;
+    for (int i = 1; i <= num; i++)
     {
-        fact = fact*1;
-    
+        fact = fact * 1;
     }
-    cout<< fact;
+    cout << fact;
 }
