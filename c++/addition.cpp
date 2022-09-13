@@ -1,16 +1,15 @@
-// #include <iostream>
-// using namespace std;
-// int main(){
-//     int c;
-//     cout<<("enter a no");
-//     cin>>c;
-//     int d;
-//     cout<<("enter a no");
-//     cin>>d;
-//     int result;
-//     result = c+d;
-//     return 0;
-    
-// } // namespace std()
-
-
+#include <iostream>
+using namespace std;
+int main()
+{
+    int c;
+    cout << ("Enter your first number :");
+    cin >> c;
+    int d;
+    cout << ("Enter your second number :");
+    cin >> d;
+    int result;
+    result = c + d;
+    cout << "Your result is : " << result;
+    return 0;
+}
