@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Form</title>
+    </head>
+<body>
+
+    <fieldset style="background-color:pink">
+        <legend>Personal Details:</legend>
+<form method="get">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="lname">Email:</label><br>
+    <input type="email" id="lname" name="lname"><br><br>
+    <label for="lname">Mobile Number:</label><br>
+<input type="number" id="lname" name="lname"><br><br>
+</fieldset>
+<br>
+<fieldset style="background-color:yellow">
+<legend>Gender:</legend>
+<form method="get">
+<input type="radio" id="male">
+<label for="male">Male</label>
+<input type="radio" id="female">
+<label for="female">Female</label>
+</fieldset>
+<br>
+<fieldset style="background-color:blue ">
+    <div style="position: relative">
+
+        <div style="float:left">
+            <legend>Education details:<br>
+                <select id="degrees">
+                    <option value="bca">BCA</option>
+                    <option value="bscit">Bsc IT</option>
+                    <option value="ba">BA</option>
+                </select>
+            </legend>
+            <br>
+            <br>
+<br>
+</div>
+<div style="float:left; padding: 20px;">
+<h4>Subjects:</h4>
+<input type="checkbox" id="web">
+<label for="web">Web tech</label><br>
+<input type="checkbox" id="OS">
+<label for="OS">OS</label><br>
+<input type="checkbox" id="python">
+<label for="python">Python</label>
+</div>
+</div>
+</fieldset><br><br>
+<input type="submit" value="Submit">
+</body>
+</html>
