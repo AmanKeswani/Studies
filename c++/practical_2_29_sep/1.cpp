@@ -16,6 +16,7 @@ int main(){
     for(int i=0;i<n;i++){
         if(arr[i] > largest){
             largest = arr[i];
+        }
     }
     cout<<"Largest = "<<largest<<endl;
     return 0;
