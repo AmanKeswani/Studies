@@ -28,8 +28,7 @@ int main()
     // Calling the function
     swapNums(firstNum, secondNum);
 
-    cout << "After Swap :"
-         << "\n";
+    cout << "After Swap :"<<endl;
     cout << firstNum << secondNum;
 
     return 0;
