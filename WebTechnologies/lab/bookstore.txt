@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title> welcome to html... </title>
+</head>
+
+<body>
+<h1>Amity institute of Information Technology
+</h1>
+</body>
+
+
+</html>
