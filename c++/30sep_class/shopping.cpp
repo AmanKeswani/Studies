@@ -28,7 +28,7 @@ void items::displaysum(void)
     float sum=0;
     for(int i=0;i<count;i++)
     {
-        sum=sum+itemprice[1];
+        sum=sum+itemprice[i];
     }
     cout<<" total value:"<<sum<<"\n";
 }

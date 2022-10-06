@@ -15,14 +15,14 @@ int main()
 
     cout << "Before Swap :"
          << "\n";
-    cout << firstNum << secondNum << "\n";
+    cout << firstNum<<"\n" << secondNum << "\n";
 
     // Calling the function
     swapNums(firstNum, secondNum);
 
     cout << "After Swap :"
          << "\n";
-    cout << firstNum << secondNum;
+    cout << firstNum<< "\n" << secondNum;
 
     return 0;
 }
