@@ -1,0 +1,5 @@
+table, tr, td {
+    text-decoration-color:#00ff00;
+    border: 3px solid;
+    padding: 5px;
+}
