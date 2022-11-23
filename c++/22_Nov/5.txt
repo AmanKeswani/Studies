@@ -1,0 +1,7 @@
+In C++, scope resolution operator is (::). It is used for following purposes. 
+1) To access a global variable when there is a local variable with same name: 
+2) To define a function outside a class. 
+3) To access a class’s static variables. 
+4) In case of multiple Inheritance: If same variable name exists in two ancestor classes, we can use scope resolution operator to distinguish.
+5) For namespace If a class having the same name exists inside two namespace we can use the namespace name with the scope resolution operator to refer that class without any conflicts
+6) Refer to a class inside another class: If a class exists inside another class we can use the nesting class to refer the nested class using the scope resolution operator
